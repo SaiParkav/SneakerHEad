@@ -1,0 +1,64 @@
+\*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif; }
+.paymentHeader{   
+    width: 100vm;
+    min-height: 100vh;
+    background: #34495e;
+    font-size:1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.container{
+    background: white;
+    border:2px solid black;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+
+}
+.left{
+    flex-basis: 50%;
+
+}
+.right{
+    flex-basis: 50%;
+}
+form{
+    padding: 1rem;
+    color:#2c3e50;
+
+}
+form input[type="text"]{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+
+}
+#zip{
+    display:flex;
+    margin-top:0.5rem;
+}
+#zip select{
+    padding: 0.5rem 0.
+}
+#zip input[type="number"]{
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    background: #34495e;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    cursor: pointer;    
+}
+input[type="submit"]:hover{
+    background: #2c3e50;
+}
+@media only screen and (max-width: 770px){
+    .container{
+        flex-direction: column;
+    }
+}
