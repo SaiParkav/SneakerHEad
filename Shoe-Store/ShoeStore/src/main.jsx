@@ -7,7 +7,7 @@ import Payment from './Payment/Payment.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <Payment />
+   <App />
  
   </React.StrictMode>,
 )
