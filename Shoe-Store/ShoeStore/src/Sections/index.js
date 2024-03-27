@@ -6,7 +6,9 @@ import Footer from './Footer';
 import Subscribe from './Subscribe';
 import Services from './Services';
 import CustomerReview from './CustomerReview';
-import LoginSignup from './LoginSignup/LoginSignup'
+import Login from './LoginSignup/Login';
+import Signup from './LoginSignup/Signup';
+
 
 export{
     Hero,
@@ -17,5 +19,6 @@ export{
     Subscribe,
     Services,
     CustomerReview,
-    LoginSignup
+    Login,
+    Signup
 }

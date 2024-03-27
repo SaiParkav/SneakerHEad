@@ -1,14 +1,15 @@
 import React from 'react';
 import './index.css';
 
-import { CustomerReview, Footer, Hero, PopularProducts, Services, SpecialOffers, Subscribe, SuperQuality,LoginSignup } from './Sections';
+import { CustomerReview, Footer, Hero, PopularProducts, Services, SpecialOffers, Subscribe, SuperQuality,Login,Signup } from './Sections';
 
 import Nav from './components/Nav';
+
 
 const App = () => (
   
   <main className='relative'>
-    <Nav/>
+    {/* <Nav/>
     <section className='xl:passing-1 wide:padding-r padding-b'>
       <Hero/> 
     
@@ -34,7 +35,9 @@ const App = () => (
     </section>
     <section className='bg-black padding-x padding-t pb-8'>
     <Footer/>
-    </section>
+    </section> */}
+    <Signup />
+    <Login/>
   </main>
 );
  
