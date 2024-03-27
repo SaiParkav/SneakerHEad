@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-import { CustomerReview, Footer, Hero, PopularProducts, Services, SpecialOffers, Subscribe, SuperQuality,LoginSignup } from './Sections';
+import { CustomerReview, Footer, Hero, PopularProducts, Services, SpecialOffers, Subscribe, SuperQuality,LoginSignup } from './components';
 
 import Nav from './components/Nav';
 
