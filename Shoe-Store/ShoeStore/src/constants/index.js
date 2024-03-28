@@ -177,7 +177,7 @@ export const productlist = [
         price: 15995,
         size: 10,
         colorway: "Yellow,White and Black",
-        description: "This is a special colourway of the Air Force 1 series , this colourway is called Mint Chocolate, cause the upper half of the shoe has a mint colour and the sole of the shoe represents a dark chocolate",
+        description: "This is a special colourway of the Air Force 1 series , this colourway is called Black and Red, Thsi is one the pioneer design from the NIKE R&D which is one of their more popular design.",
         brand: "Nike Jordan I",
         quantity: 10
     },
@@ -186,15 +186,15 @@ export const productlist = [
         name: "Jordan I Mid Desert Sand",
         price: 13780,
         size: 10,
-        colorway: "Skin,White and Black",
-        description: "This is a special colourway of the Air Force 1 series , this colourway is called Mint Chocolate, cause the upper half of the shoe has a mint colour and the sole of the shoe represents a dark chocolate",
+        colorway: "Beige,White and Black",
+        description: "This is a special colourway of the Air Force 1 series , this colourway is called Black and Red, Thsi is one the pioneer design from the NIKE R&D which is one of their more popular design.",
         brand: "Nike Jordan I ",
         quantity: 10
     },
     {
         imgURL:  "/product-images/Jordan4S1.jpg",
         name: "Jordan IV Cool Grays",
-        price: "Rs.38,890 /-",
+        price: 38890,
         size: 10,
         colorway: "Grey and White",
         description: "This is a special colourway of the Air Force 1 series , this colourway is called Mint Chocolate, cause the upper half of the shoe has a mint colour and the sole of the shoe represents a dark chocolate",
@@ -204,7 +204,7 @@ export const productlist = [
     {
         imgURL:  "/product-images/Jordan4S2.jpg",
         name: "Jordan IV Pine Greens",
-        price: "Rs.43,880 /-",
+        price: 43880,
         size: 10,
         colorway: "White and Green",
         description: "This is a special colourway of the Air Force 1 series , this colourway is called Mint Chocolate, cause the upper half of the shoe has a mint colour and the sole of the shoe represents a dark chocolate",
