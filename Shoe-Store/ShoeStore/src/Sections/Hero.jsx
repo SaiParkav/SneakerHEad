@@ -1,6 +1,6 @@
 
-import { arrowRight } from '../assets/icons'
-import { bigShoe1 } from '../assets/images'
+import { arrowRight } from '../../public/icons'
+import { bigShoe1 } from '../../public/images'
 import Button from '../components/button'
 import { shoes, statistics } from '../constants'
 import ShoeCard from '../components/ShoeCard'

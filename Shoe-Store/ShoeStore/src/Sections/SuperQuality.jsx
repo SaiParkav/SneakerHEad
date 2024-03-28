@@ -1,4 +1,4 @@
-import { shoe8 } from "../assets/images";
+import { shoe8 } from "../../public/images";
 
 const SuperQuality = () => {
   return (

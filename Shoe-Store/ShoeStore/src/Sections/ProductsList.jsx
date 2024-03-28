@@ -1,32 +1,26 @@
 import React,{useState} from 'react';
-const sneakers =[
-    {
-        id:1,
-        name: 'Nike Air Force 1',
-        price: '$90',
-        image:'https://via.placeholder.com/150',
-    },
-    {
-        id:2,
-        name:'Adidas Superstar',
-        price:'$80',
-        image:'https://via.placeholder.com/150',
-    },
-];
+import {  productlist } from "../constants/index"
+import ProductsListCard from '../components/ProductsListCard';
+
+
+
+
 const ProductsList = () => {
     return (
-        <div id="products-list" className="container mx-auto py-8">
-            <h2 className='text-3xl font-semibold mb-4'>Sneakers</h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
-                {sneakers.map((sneaker)=>(
-                   <div key= {sneaker.id} className="border border-gray-200 p-4">
-                   <img src={sneaker.image} alt={ sneaker.name} className="mx-auto" style ={{maxWidth:'100%',height:'auto'}}/>
-                   <p className='text-lg font-semibold mt-2'> {sneaker.name}</p>
-                    <p className='text-gray-600'>{sneaker.price}</p>
-                    </div>
+        <div id="products-list" className="max-container max-sm:mt-12 ">
+        <div className="flex flex-col justify-start gap-5">
+        <h2 className="text-3xl font-palanquin font-bold text-coral-red mt-16">Products</h2>
+       
+            </div>
+            {/* <img className='bg-green-500 w-20 h-20' src="/product-images/AirForce1S1.png" alt="" /> */}
+            
+
+<div className='mt-16 m-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
+  {productlist.map((product) => (
+    <ProductsListCard key= {product.name}{...product} />
                 ))}
             </div>
-        </div>
+        </div> 
     );
 };
  export default ProductsList
