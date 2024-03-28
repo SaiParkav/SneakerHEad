@@ -4,9 +4,9 @@ import Home from './components/Home';
 import { Route,BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Login, Signup } from './Sections';
 import Nav from './components/Nav';
-import Contact from './components/Contact';
+
 import About from './components/About';
-import Products from './components/Products';
+
 import AddProducts from './components/AddProducts';
 import ProductsList from './Sections/ProductsList';
 import ContactUs from './components/ContactUs';
