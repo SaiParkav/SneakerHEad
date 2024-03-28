@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-semibold mb-4">About Us</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-coral-red">About Us</h1>
       <p className="mb-4">
       SneakerHead is fast-growing,a well-reputed company in the marketknown for its passion for sneakers and commitment to delivering the latest trends to sneaker enthusiasts worldwide. Our journey began with a simple idea: to create a platform where sneaker lovers could find the most sought-after styles, limited editions, and exclusive collaborations.
       Over the years, Sneaker Head has grown into a leading destination for sneakerheads, offering a curated collection of premium sneakers from top brands like Nike, Jordan, and plan to add more. We take pride in our extensive selection, catering to every taste and style, whether you're a casual wearer or a serious collector.
