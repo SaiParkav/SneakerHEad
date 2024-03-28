@@ -1,6 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
-import { AirForce1S1 , } from "../assets/product-images";
+import { AirForce1S1 , AirForce1S2, DunksHighS1, DunksLowS1 ,  DunksLowS2 , Jordan1HighS1, Jordan1HighS2, Jordan1LowS1, Jordan1LowS2, Jordan1MidS1, Jordan1MidS2, Jordan4S1, Jordan4S2 } from "../assets/product-images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -81,8 +81,65 @@ export const productlist = [
         price: "Rs.11,000 /-"
     },
     {
-
-    }
+        imgURL: AirForce1S2,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: DunksHighS1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: DunksLowS1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: DunksLowS2,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan1HighS1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan1HighS2,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan1LowS1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan1LowS2,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan1MidS1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan1MidS2,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan4S1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+        imgURL: Jordan4S2,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
 ]
 export const services = [
     {
