@@ -17,7 +17,7 @@ function AddProducts() {
     const [addProduct,setAddProduct]=useState(initialAddProductState);
 
     const handleInputChange=event=>{
-        const {name,value}=event.target
+        const {name,value}=event.target;
         setAddProduct({...addProduct,[name]:value});
     };
 

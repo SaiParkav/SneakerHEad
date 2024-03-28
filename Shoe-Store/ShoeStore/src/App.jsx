@@ -10,6 +10,7 @@ import AddProducts from './components/AddProducts';
 import ProductsList from './Sections/ProductsList';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
+import ShowCart from './components/ShowCart';
 
 const App = () => (
   <>
@@ -23,6 +24,7 @@ const App = () => (
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/products" element={<ProductsList />} />
       <Route path="/addProduct" element={<AddProducts />} />
+      <Route path="/cartItems" element={<ShowCart />} />
     </Routes>
   </Router>
 

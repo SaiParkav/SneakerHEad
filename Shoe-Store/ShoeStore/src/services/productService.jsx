@@ -8,6 +8,10 @@ const get = brand => {
     return http.get(`/products/${brand}`);
 };
 
+const cart = () => {
+    return http.get(`/CartProducts/true`);
+}
+
 const create = data => {
     return http.post("/products",data);
 }
@@ -29,7 +33,8 @@ const productService = {
     create,
     update,
     addCart,
-    removeCart
+    removeCart,
+    cart
 };
 
 export default productService;

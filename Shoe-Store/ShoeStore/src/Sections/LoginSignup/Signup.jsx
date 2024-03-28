@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import UserService from '../../services/UserService';
-// import {useNavigate} from "react-router-dom";
 import  './LoginSignup.css';
  import user_icon from'../../../public/images/user.png';
  import email_icon from'../../../public/images/email.png';

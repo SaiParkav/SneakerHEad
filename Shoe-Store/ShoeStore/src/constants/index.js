@@ -9,7 +9,7 @@ export const navLinks = [
     { href: "/contact", label: "Contact Us" },
     {href:"/login",label: "Login"},
     {href:"/signup",label: "Sign Up"},
-
+    {href:"/cartItems",label:"Cart"}
 ];
 
 export const shoes = [
@@ -79,7 +79,7 @@ export const products = [
 
 export const productlist = [
     {
-        imgURL:"/product-images/AirForce1S1.png",
+        imagePath:"/product-images/AirForce1S1.png",
         name: "Air Force 1 Mint Chocolate",
         price: 11000,
         size: 10,
@@ -89,7 +89,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/AirForce1S2.png",
+        imagePath: "/product-images/AirForce1S2.png",
         name: "Air Force 1 Black Red",
         price: 12076 ,
         size: 8,
@@ -99,7 +99,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/DunksHighS1.png",
+        imagePath: "/product-images/DunksHighS1.png",
         name: "Dunks High OrangeSunset",
         price: 13438,
         size: 10,
@@ -110,7 +110,7 @@ export const productlist = [
 
     },
     {
-        imgURL: "/product-images/DunksLowS1.png",
+        imagePath: "/product-images/DunksLowS1.png",
         name: "Dunks Lows Red-Lobsters",
         price: 12483,
         size: 7,
@@ -121,7 +121,7 @@ export const productlist = [
 
     },
     {
-        imgURL: "/product-images/DunksLowS2.png",
+        imagePath: "/product-images/DunksLowS2.png",
         name: "Nike Dunks Lows Brazil",
         price: 12483,
         size: 12,
@@ -132,7 +132,7 @@ export const productlist = [
 
     },
     {
-        imgURL: "/product-images/Jordan1HighS1.jpg",
+        imagePath: "/product-images/Jordan1HighS1.jpg",
         name: "Nike Jordan I High Charcoal-Black",
         price: 15899,
         size: 8,
@@ -142,7 +142,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/Jordan1HighS2.jpg",
+        imagePath: "/product-images/Jordan1HighS2.jpg",
         name: "Jordan I High White/PinkSky J Mauve",
         price: 16995,
         size: 13,
@@ -152,7 +152,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/Jordan1LowS1.jpg",
+        imagePath: "/product-images/Jordan1LowS1.jpg",
         name: "Jordan I Low Red sail Lobster",
         price: 12475,
         size: 9,
@@ -162,7 +162,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/Jordan1LowS2.png",
+        imagePath: "/product-images/Jordan1LowS2.png",
         name: "Jordan I Low Bred Toe red",
         price: 12475,
         size: 7,
@@ -172,7 +172,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/Jordan1MidS1.jpg",
+        imagePath: "/product-images/Jordan1MidS1.jpg",
         name: "Jordan I Mid Yello O'Chere",
         price: 15995,
         size: 10,
@@ -182,7 +182,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL: "/product-images/Jordan1MidS2.jpg",
+        imagePath: "/product-images/Jordan1MidS2.jpg",
         name: "Jordan I Mid Desert Sand",
         price: 13780,
         size: 10,
@@ -192,7 +192,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL:  "/product-images/Jordan4S1.jpg",
+        imagePath:  "/product-images/Jordan4S1.jpg",
         name: "Jordan IV Cool Grays",
         price: 38890,
         size: 10,
@@ -202,7 +202,7 @@ export const productlist = [
         quantity: 10
     },
     {
-        imgURL:  "/product-images/Jordan4S2.jpg",
+        imagePath:  "/product-images/Jordan4S2.jpg",
         name: "Jordan IV Pine Greens",
         price: 43880,
         size: 10,
