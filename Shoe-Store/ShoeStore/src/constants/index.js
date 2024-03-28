@@ -3,11 +3,13 @@ import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6
 import { AirForce1S1 , } from "../assets/product-images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products-list", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
-    {href:"#popular-products",label: "Popular Products"}
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/products", label: "Products" },
+    { href: "/contact", label: "Contact Us" },
+    {href:"/login",label: "Login"},
+    {href:"/signup",label: "Sign Up"},
+
 ];
 
 export const shoes = [

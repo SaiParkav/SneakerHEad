@@ -5,6 +5,7 @@ import Button from '../components/button'
 import { shoes, statistics } from '../constants'
 import ShoeCard from '../components/ShoeCard'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   const[bigShoeImg, setBigShoeImg] = useState(bigShoe1)
@@ -22,7 +23,10 @@ const Hero = () => {
            Kicks 
           </h1>
           <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">The all New Jordan Kicks straight outta the NIKE Factory, Don't sleep on these premium comfort kicks, Its harder than finding Drake's Leaks.</p>
+          <Link to={'/products'}>
           <Button  lable="Shop now" iconURL={arrowRight} />
+          </Link>
+          
           <div className="flex justify-starts items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat) => (
             <div key={stat.label}>
