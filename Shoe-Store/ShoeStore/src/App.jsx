@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-import { CustomerReview, Footer, Hero, PopularProducts, Services, SpecialOffers, Subscribe, SuperQuality,Login,Signup } from './Sections';
+import { CustomerReview, Footer, Hero, PopularProducts, Services, AboutUs ,SpecialOffers, Subscribe, SuperQuality,Login,Signup } from './Sections';
 
 import Nav from './components/Nav';
 import ProductsList from './Sections/ProductsList';
@@ -26,6 +26,9 @@ const App = () => (
     </section>
     <section className='padding-x py-10'>
     <Services/>
+    </section>
+    <section className='padding'>
+    <AboutUs/>
     </section>
     <section className='padding'>
    < SpecialOffers/>
