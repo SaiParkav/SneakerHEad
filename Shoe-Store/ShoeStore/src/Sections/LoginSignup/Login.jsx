@@ -68,7 +68,7 @@ import  './LoginSignup.css';
         </div>
         </div>
         <div className="text-sm mb-4 text-center">
-            New User? <a href="/signup" className="text-black">Sign up here</a>
+            New User? <a href="/signup" className="text-black underline">Sign up here</a>
         </div>
         <div className="flex justify-center">
             <button className="bg-coral-red hover:bg-coral-red text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" onClick={() => { saveLoginData() }}>Login</button>

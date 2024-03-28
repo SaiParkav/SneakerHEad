@@ -14,12 +14,12 @@ export const navLinks = [
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: thumbnailShoe2,
+        bigShoe:  bigShoe2,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: thumbnailShoe1,
+        bigShoe: bigShoe1,
     },
     {
         thumbnail: thumbnailShoe3,
@@ -28,8 +28,8 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
+    { value: '1k+', label: 'Stores' },
+    { value: '500+', label: 'Custom Design' },
     { value: '250k+', label: 'Customers' },
 ];
 
