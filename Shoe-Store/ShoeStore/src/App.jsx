@@ -5,8 +5,6 @@ import { Route,BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Login, Signup } from './Sections';
 import Nav from './components/Nav';
 
-import About from './components/About';
-
 import AddProducts from './components/AddProducts';
 import ProductsList from './Sections/ProductsList';
 import AboutUs from './components/AboutUs';
@@ -20,9 +18,9 @@ const App = () => (
       <Route path="/login" element={<Login />} />
       <Route path="/signUp" element={<Signup />} />
       <Route path="/about" element={<AboutUs />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<ContactUs />} />
+
+    
+      {/* <Route path="/contact" element={<ContactUs />} /> */}
       <Route path="/products" element={<ProductsList />} />
       <Route path="/addProduct" element={<AddProducts />} />
     </Routes>

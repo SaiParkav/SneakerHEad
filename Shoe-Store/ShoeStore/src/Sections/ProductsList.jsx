@@ -13,6 +13,7 @@ const ProductsList = () => {
         productService.getAll()
         .then(response=>{
             console.log(response);
+            setAddProduct(response.data);
         })
         .catch(error=>{
             console.log(error);
@@ -29,7 +30,7 @@ const ProductsList = () => {
             
 
 <div className='mt-16 m-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
-  {productlist.map((product) => (
+  {product.map((product) => (
     <ProductsListCard key= {product.name}{...product} />
                 ))}
             </div>
