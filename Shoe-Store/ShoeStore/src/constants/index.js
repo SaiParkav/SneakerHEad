@@ -197,7 +197,7 @@ export const productlist = [
         price: 38890,
         size: 10,
         colorway: "Grey and White",
-        description: "This is a special colourway of the Air Force 1 series , this colourway is called Mint Chocolate, cause the upper half of the shoe has a mint colour and the sole of the shoe represents a dark chocolate",
+        description: "This is a special colourway of the Nike Dunks series , this colourway is called Orange Sunset, cause the shoe represents Sunset.",
         brand: "Nike Jordan IV",
         quantity: 10
     },
@@ -250,18 +250,18 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Air Force 1", link: "/products" },
+            { name: "Air Max 1", link: "/products" },
+            { name: "Air Jordan I", link: "/products" },
+            { name: "Air Jordan IV", link: "/products" },
+            { name: "Nike Dunks", link: "/products" },
+            { name: "Nike SB Dunks", link: "/products" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
+            { name: "About us", link: "/about" },
             { name: "FAQs", link: "/" },
             { name: "How it works", link: "/" },
             { name: "Privacy policy", link: "/" },
@@ -271,7 +271,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "customer@nikesneakerhead.com", link: "mailto:customer@nikesneakerhead.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },
