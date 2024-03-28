@@ -3,11 +3,13 @@ import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6
 import { AirForce1S1 , AirForce1S2, DunksHighS1, DunksLowS1 ,  DunksLowS2 , Jordan1HighS1, Jordan1HighS2, Jordan1LowS1, Jordan1LowS2, Jordan1MidS1, Jordan1MidS2, Jordan4S1, Jordan4S2 } from "../assets/product-images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products-list", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
-    {href:"#popular-products",label: "Popular Products"}
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About Us" },
+    { href: "/products", label: "Products" },
+    { href: "/contact", label: "Contact Us" },
+    {href:"/login",label: "Login"},
+    {href:"/signup",label: "Sign Up"},
+
 ];
 
 export const shoes = [
