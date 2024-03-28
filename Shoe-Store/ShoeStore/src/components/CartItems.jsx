@@ -3,11 +3,11 @@ import { star } from "../../public/icons"
 import productService from "../services/productService"
 
 
-const ProductsListCard = ({id,imagePath, name, price,description,colorway,size,brand,quantity}) => {
+const CartItems = ({product}) => {
+    const {id,imagePath, name, price,description,colorway,size,brand,quantity}=product;
   const addToCart=()=>{
-    productService.addCart(id).then(res=>{
+    productService.cart.then(res=>{
       console.log(res);
-      alert('Added To Cart');
     })
 }
 
@@ -54,7 +54,6 @@ const ProductsListCard = ({id,imagePath, name, price,description,colorway,size,b
       </div>
     
       <div className="flex justify-between align-center w-full gap-2">
-      <button className="bg-coral-red hover:bg-coral-red text-white font-bold py-2 px-2 rounded focus:outline-none focus:shadow-outline w-2/4" onClick={()=>addToCart()}>Add to cart</button>
       <button className="bg-coral-red hover:bg-coral-red text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-2/4">Buy Now</button>
 
     </div>
@@ -62,4 +61,4 @@ const ProductsListCard = ({id,imagePath, name, price,description,colorway,size,b
   )
 }
 
-export default ProductsListCard
+export default CartItems;

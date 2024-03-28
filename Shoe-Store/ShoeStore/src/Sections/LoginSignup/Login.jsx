@@ -9,7 +9,7 @@ import  './LoginSignup.css';
  const Login= () => {
    const navigate =useNavigate();
 
-   
+
     const initialLoginState ={
         email:"",
         password:""
@@ -81,3 +81,5 @@ import  './LoginSignup.css';
     )
  }
  export default Login
+
+
