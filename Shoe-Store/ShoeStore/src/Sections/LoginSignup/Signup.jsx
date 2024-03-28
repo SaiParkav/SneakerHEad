@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
 import UserService from '../../services/UserService';
 import  './LoginSignup.css';
- import user_icon from'../../assets/images/user.png';
- import email_icon from'../../assets/images/email.png';
- import password_icon from '../../assets/images/password.png';
+ import user_icon from'../../../public/images/user.png';
+ import email_icon from'../../../public/images/email.png';
+ import password_icon from '../../../public/images/password.png';
  const Signup = () => {
     const initialSignupState ={
         email:"",

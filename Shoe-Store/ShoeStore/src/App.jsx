@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Products from './components/Products';
 import AddProducts from './components/AddProducts';
+import ProductsList from './Sections/ProductsList';
 
 const App = () => (
   <>
@@ -19,7 +20,7 @@ const App = () => (
       <Route path="/signUp" element={<Signup />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/product" element={<Products />} />
+      <Route path="/products" element={<ProductsList />} />
       <Route path="/addProduct" element={<AddProducts />} />
     </Routes>
   </Router>
