@@ -9,7 +9,7 @@ const ProductsList = () => {
       
       </div>
 
-      <div className='mt-7 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14'>
+      <div className='mt-7 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14 m-4'>
         {productlist.map((product) => (
           <ProductsListCard key= {product.name}{...product} />
         ))}

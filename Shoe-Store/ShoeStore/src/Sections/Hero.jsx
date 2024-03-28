@@ -22,7 +22,7 @@ const Hero = () => {
           <span className="text-coral-red inline-block mt-3">Jordan </span>
            Kicks 
           </h1>
-          <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">The all New Jordan Kicks straight outta the NIKE Factory, Don't sleep on these premium comfort kicks, Its harder than finding Drake's Leaks.</p>
+          <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">The all New Jordan Kicks straight outta the NIKE Factory, Don't sleep on these premium comfort kicks.</p>
           <Link to={'/products'}>
           <Button  lable="Shop now" iconURL={arrowRight} />
           </Link>
