@@ -57,8 +57,8 @@ import  './LoginSignup.css';
     };
     return (
         <div className="w-full mt-40 flex flex-col items-center justify-center">
-        <div className="bg-white shadow-md rounded border border-red-700 px-8 pt-6 pb-8 mb-4 w-auto">
-        <div className="text-3xl font-bold mb-6 text-center text-blue-600">Login</div>
+        <div className="bg-white  px-8 pt-6 pb-8 mb-4 w-auto">
+        <div className="text-3xl font-bold mb-6 text-center text-coral-red">Login</div>
         <div className="inputs mb-6">
         <div className="input mb-4 ">
             <input className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" name="email" value={login.email} placeholder="Email ID" onChange={handleLoginChange} />
@@ -68,10 +68,10 @@ import  './LoginSignup.css';
         </div>
         </div>
         <div className="text-sm mb-4 text-center">
-            New User? <a href="/signup" className="text-purple-500">Sign up here</a>
+            New User? <a href="/signup" className="text-black">Sign up here</a>
         </div>
         <div className="flex justify-center">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" onClick={() => { saveLoginData() }}>Login</button>
+            <button className="bg-coral-red hover:bg-coral-red text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" onClick={() => { saveLoginData() }}>Login</button>
         </div>
     </div>
 </div>
