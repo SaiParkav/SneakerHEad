@@ -14,12 +14,12 @@ export const navLinks = [
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: thumbnailShoe2,
+        bigShoe:  bigShoe2,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: thumbnailShoe1,
+        bigShoe: bigShoe1,
     },
     {
         thumbnail: thumbnailShoe3,
@@ -28,8 +28,8 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
+    { value: '1k+', label: 'Stores' },
+    { value: '500+', label: 'Custom Design' },
     { value: '250k+', label: 'Customers' },
 ];
 
@@ -84,63 +84,63 @@ export const productlist = [
     },
     {
         imgURL: "/product-images/AirForce1S2.png",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Air Force 1 Black Red",
+        price: "Rs.12,076 /-"
     },
     {
         imgURL: "/product-images/DunksHighS1.png",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Nike Dunks High Orange Sunset",
+        price: "Rs.13,438 /-"
     },
     {
         imgURL: "/product-images/DunksLowS1.png",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Nike Dunks Lows Red-Lobsters",
+        price: "Rs.12,483 /-"
     },
     {
         imgURL: "/product-images/DunksLowS2.png",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Nike Dunks Lows Mint Brazil",
+        price: "Rs.12,483 /-"
     },
     {
         imgURL: "/product-images/Jordan1HighS1.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan I High Charcoal",
+        price: "Rs.15,899 /-"
     },
     {
         imgURL: "/product-images/Jordan1HighS2.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan I High White/Sky J Mauve",
+        price: "Rs.16,995 /-"
     },
     {
         imgURL: "/product-images/Jordan1LowS1.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan I Low Red sail Lobster",
+        price: "Rs.12,475 /-"
     },
     {
         imgURL: "/product-images/Jordan1LowS2.png",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan I Low Bred Toe red",
+        price: "Rs.12,475 /-"
     },
     {
         imgURL: "/product-images/Jordan1MidS1.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Joedan I Mid Yello O'Chere",
+        price: "Rs.15,995 /-"
     },
     {
         imgURL: "/product-images/Jordan1MidS2.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan 1 Mid Desert Sand",
+        price: "Rs.13,780 /-"
     },
     {
         imgURL:  "/product-images/Jordan4S1.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan IV Cool Grays",
+        price: "Rs.38,890 /-"
     },
     {
         imgURL:  "/product-images/Jordan4S2.jpg",
-        name: "Air Force 1 Mint Chocolate",
-        price: "Rs.11,000 /-"
+        name: "Jordan IV Pine Greens",
+        price: "Rs.43,880 /-"
     },
 ]
 export const services = [

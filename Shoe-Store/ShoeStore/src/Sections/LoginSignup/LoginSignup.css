@@ -26,7 +26,7 @@
     margin: auto;
     }
 
-.underline{
+.underlines{
         width: 61px;
         height:6px;
         background: #FF7F50;
@@ -76,7 +76,7 @@
     margin: auto;
     } 
 .forgot_password span{
-    color: #4c00b4;
+    color: #FF7F50;
     cursor: pointer;
     }
 .submit-container{
@@ -91,7 +91,7 @@
     width:220px;
     height:59px;
     color: #fff;
-    background: #4c00b4;
+    background: #FF7F50;
     border-radius: 50px;
     font-size: 19px;
     font-weight: 700;

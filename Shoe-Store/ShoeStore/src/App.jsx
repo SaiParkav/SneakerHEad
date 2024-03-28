@@ -9,7 +9,7 @@ import About from './components/About';
 
 import AddProducts from './components/AddProducts';
 import ProductsList from './Sections/ProductsList';
-import ContactUs from './components/ContactUs';
+import AboutUs from './components/AboutUs';
 
 const App = () => (
   <>
@@ -19,6 +19,8 @@ const App = () => (
     <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signUp" element={<Signup />} />
+      <Route path="/about" element={<AboutUs />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/products" element={<ProductsList />} />
