@@ -1,11 +1,24 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import {  productlist } from "../constants/index"
 import ProductsListCard from '../components/ProductsListCard';
-
-
-
+import productService from '../services/productService';
 
 const ProductsList = () => {
+    const [product,setAddProduct]=useState([]);
+    useEffect(()=>{
+        retriveProduct();
+    },[])
+
+    const retriveProduct=()=>{
+        productService.getAll()
+        .then(response=>{
+            console.log(response);
+        })
+        .catch(error=>{
+            console.log(error);
+        });
+    }
+ 
     return (
         <div id="products-list" className="max-container max-sm:mt-12 ">
         <div className="flex flex-col justify-start gap-5">
