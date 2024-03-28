@@ -1,5 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { AirForce1S1 , } from "../assets/product-images";
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -46,7 +47,7 @@ export const products = [
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
-        price: "$220.20",
+        price: "Rs 12000",
     },
     {
         imgURL: shoe7,
@@ -75,6 +76,16 @@ export const products = [
     },
 ];
 
+export const productlist = [
+    {
+        imgURL: AirForce1S1,
+        name: "Air Force 1 Mint Chocolate",
+        price: "Rs.11,000 /-"
+    },
+    {
+
+    }
+]
 export const services = [
     {
         imgURL: truckFast,
