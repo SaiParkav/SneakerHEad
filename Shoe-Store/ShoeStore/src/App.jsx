@@ -10,7 +10,7 @@ import ProductsList from './Sections/ProductsList';
 const App = () => (
   
   <main className='relative'>
-    {/* <Nav/>
+    <Nav/>
     <section className='xl:passing-1 wide:padding-r padding-b'>
       <Hero/> 
     
@@ -38,7 +38,8 @@ const App = () => (
     </section>
     <section className='bg-black padding-x padding-t pb-8'>
     <Footer/>
-    </section> */}
+    </section> 
+     
     <Signup />
     <Login/>
   </main>

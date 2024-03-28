@@ -6,7 +6,8 @@ import Footer from '../Sections/Footer';
 import Subscribe from '../Sections/Subscribe';
 import Services from '../Sections/Services';
 import CustomerReview from '../Sections/CustomerReview';
-import LoginSignup from '../Sections/LoginSignup/LoginSignup'
+import Login  from '../Sections/LoginSignup/Login';
+import Signup from '../Sections/LoginSignup/Signup';
 
 export{
     Hero,
@@ -17,5 +18,6 @@ export{
     Subscribe,
     Services,
     CustomerReview,
-    LoginSignup
+    Login,
+    Signup
 }
