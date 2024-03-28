@@ -4,9 +4,9 @@ import Home from './components/Home';
 import { Route,BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Login, Signup } from './Sections';
 import Nav from './components/Nav';
-import Contact from './components/Contact';
+
 import About from './components/About';
-import Products from './components/Products';
+
 import AddProducts from './components/AddProducts';
 import ProductsList from './Sections/ProductsList';
 import AboutUs from './components/AboutUs';
@@ -21,6 +21,8 @@ const App = () => (
       <Route path="/signUp" element={<Signup />} />
       <Route path="/about" element={<AboutUs />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<ContactUs />} />
       <Route path="/products" element={<ProductsList />} />
       <Route path="/addProduct" element={<AddProducts />} />
     </Routes>
