@@ -46,7 +46,7 @@
 .input{
     display: flex;
     align-items: centre;
-    margin: 2px;
+    /* margin: 2px; */
     width: 480px;
     height: 80px;
     background: #eaeaea;

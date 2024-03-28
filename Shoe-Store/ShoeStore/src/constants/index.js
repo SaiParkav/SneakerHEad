@@ -1,6 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../../public/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../../public/images";
-// import { AirForce1S1 , AirForce1S2, DunksHighS1, DunksLowS1 ,  DunksLowS2 , Jordan1HighS1, Jordan1HighS2, Jordan1LowS1, Jordan1LowS2, Jordan1MidS1, Jordan1MidS2, Jordan4S1, Jordan4S2 } from "../assets/product-images";
+import { bigShoe1, bigShoe2, bigShoe3, Abhishek, Pramod, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../../public/images";
+ //import { AirForce1S1 , AirForce1S2, DunksHighS1, DunksLowS1 ,  DunksLowS2 , Jordan1HighS1, Jordan1HighS2, Jordan1LowS1, Jordan1LowS2, Jordan1MidS1, Jordan1MidS2, Jordan4S1, Jordan4S2 } from "../assets/product-images";
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -163,13 +163,13 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
+        imgURL: Abhishek,
+        customerName: 'Abhishek H M',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
-        imgURL: customer2,
+        imgURL: Pramod,
         customerName: 'Lota Mongeskar',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
