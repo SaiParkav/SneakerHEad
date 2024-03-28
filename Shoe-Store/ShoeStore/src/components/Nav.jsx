@@ -1,5 +1,5 @@
-import { headerLogo } from '../assets/images';
-import { hamburger } from '../assets/icons';
+import { headerLogo } from '../../public/images';
+import { hamburger } from '../../public/icons';
 import { navLinks } from '../constants';
 import { Link } from 'react-router-dom';
 
