@@ -1,49 +1,28 @@
 import React from 'react';
 import './index.css';
-
-import { CustomerReview, Footer, Hero, PopularProducts, Services, SpecialOffers, Subscribe, SuperQuality,Login,Signup } from './Sections';
-
+import Home from './components/Home';
+import { Route,BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Login, Signup } from './Sections';
 import Nav from './components/Nav';
-import ProductsList from './Sections/ProductsList';
-
+import Contact from './components/Contact';
+import About from './components/About';
+import Products from './components/Products';
 
 const App = () => (
-  
-  <main className='relative'>
+  <>
+  <Router>
     <Nav/>
-    <section className='xl:passing-1 wide:padding-r padding-b'>
-      <Hero/> 
-    
-    </section>
-    <section className='padding'>
-    <PopularProducts/>
-    </section>
-    <section className='padding-x py-10'>
-    <ProductsList />
-    </section>
-    <section className='padding'>
-    <SuperQuality/>
-    </section>
-    <section className='padding-x py-10'>
-    <Services/>
-    </section>
-    <section className='padding'>
-   < SpecialOffers/>
-    </section>
-    <section className='bg-pale-blue padding'>
-    <CustomerReview/>
-    </section>
-    <section className='padding-x sm:py-32 py-16'>
-   < Subscribe/>
-    </section>
-    <section className='bg-black padding-x padding-t pb-8'>
-    <Footer/>
-    </section>
-    <Signup />
-    <Login/>
-    
-  </main>
-);
+    <Routes>
+    <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signUp" element={<Signup />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/product" element={<Products />} />
+    </Routes>
+  </Router>
 
-  export default App;
+  </>
+);
+export default App;
  

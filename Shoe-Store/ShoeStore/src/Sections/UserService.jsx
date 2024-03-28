@@ -1,12 +1,25 @@
-import http from "./http";
-const createsignup = data => {
-    return http.post("/",data);
+import http from "../http-common";
+const getAll=()=>{
+    return http.get("/user");
 };
-const createlogin = data => {
-    return http.post("/",data)
+const getByEmail=email=>{
+    return http.get(`/users/${email}`);
 };
-const UserService = {
-    createsignup,
-    createlogin
+const create=data=>{
+    return http.post("/saveUser",data);
 };
-export default UserService
+const update=email=>{
+    return http.put(`/users/${email}`)
+};
+const login=user=>{
+    return http.post("/login",user);
+}
+const UserService={
+    getAll,
+    getByEmail,
+    create,
+    update,
+    login
+
+}
+export default UserService;
